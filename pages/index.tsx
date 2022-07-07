@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   ];
 
   function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
-    setSearchTerm(event.target.value)
+    setSearchTerm(event.target.value);
   }
 
   function handleSubmit(e: FormEvent) {
