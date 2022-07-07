@@ -5,7 +5,18 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+<<<<<<< HEAD
     extend: {},
   },
   plugins: [],
+=======
+    fontFamily: {
+      'sans': ['"Inter"', 'ui-sans-serif', 'system-ui'],
+    },
+    extend: {},
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
+>>>>>>> sidebar-layout
 }
